@@ -26,7 +26,7 @@ const state = {
 }
 
 
-const pathImages = "./src/Arquivos/imagens/favicon";
+const pathImages = "./src/Arquivos/imagens/favicon/";
 
 const cardData = [
     {
@@ -64,7 +64,7 @@ async function getRandomCardId() {
 async function createCardImage(IdCard, fieldSide) {
     const cardImage = document.createElement("img");
     cardImage.setAttribute("height", "100px");
-    cardImage.setAttribute("src", "./src/Arquivos/imagens/favicon/card-black.png");
+    cardImage.setAttribute("src", "./src/Arquivos/imagens/favicon/card-back.png");
     cardImage.setAttribute("data-id", IdCard);
     cardImage.classList.add("card");
 
@@ -183,7 +183,7 @@ async function resetDuel() {
 }
 
 async function playAudio(status) {
-    const audio = new Audio(`./src/assets/audios/${status}.wav`);
+    const audio = new Audio(`./src/Arquivos/Audio/${status}.wav`);
     try {
         audio.play();
     } catch {}
