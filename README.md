@@ -15,6 +15,15 @@ Este é um mini jogo de **pedra, papel e tesoura** inspirado no universo de *Yu-
 - Jogo leve, direto no navegador
 - Ótimo para praticar lógica e eventos no JavaScript
 
+
+---
+
+## 🎥 Demonstração
+
+![Demonstração do Jogo]()
+
+---
+
 ## 🛠️ Tecnologias
 
 - HTML5
