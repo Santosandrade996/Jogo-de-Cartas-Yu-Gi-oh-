@@ -20,7 +20,7 @@ Este é um mini jogo de **pedra, papel e tesoura** inspirado no universo de *Yu-
 
 ## 🎥 Demonstração
 
-![Demonstração do Jogo]()
+![Demonstração do Jogo](./src/Arquivos/print-video/demonstração.gif)
 
 ---
 
