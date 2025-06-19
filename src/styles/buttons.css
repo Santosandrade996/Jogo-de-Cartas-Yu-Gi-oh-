@@ -6,7 +6,7 @@
   outline: none;
 
   
-  background: url("./Arquivos\ de\ imagens\ e\ audio\ etc/imagens/rpg/button.png") no-repeat no-repeat;
+  background: url("../Arquivos/imagens/rpg/button.png") no-repeat no-repeat;
   background-clip: padding-box;
   background-origin: padding-box;
   background-position: center;
@@ -28,13 +28,13 @@
 /* button hover */
 .rpgui-button.hover,
 .rpgui-button:hover {
-  background-image: url("./Arquivos\ de\ imagens\ e\ audio\ etc/imagens/rpg//button-hover.png");
+  background-image: url("../Arquivos/imagens/rpg/button-hover.png");
 }
 
 /* button clicked */
 .rpgui-button.down,
 .rpgui-button:active {
-  background-image: url("./Arquivos\ de\ imagens\ e\ audio\ etc/imagens/rpg/button-down.png");
+  background-image: url("../Arquivos/imagens/rpg/button-down.png");
 }
 
 
@@ -52,7 +52,7 @@
   outline: none;
 
   
-  background: url("./Arquivos\ de\ imagens\ e\ audio\ etc/imagens/rpg/button-golden.png") no-repeat no-repeat;
+  background: url("../Arquivos/imagens/rpg/button-golden.png") no-repeat no-repeat;
   background-clip: padding-box;
   background-origin: padding-box;
   background-position: center;
@@ -73,12 +73,12 @@
 /* button hover */
 .rpgui-button.golden.hover,
 .rpgui-button.golden:hover {
-  background-image: url("./Arquivos\ de\ imagens\ e\ audio\ etc/imagens/rpg/button-golden-hover.png");
+  background-image: url("../Arquivos/imagens/rpg/button-golden-hover.png");
 }
 
 .rpgui-button.golden.down,
 .rpgui-button.golden:active {
-  background-image: url("./Arquivos\ de\ imagens\ e\ audio\ etc/imagens/rpg/button-golden-down.png");
+  background-image: url("../Arquivos/imagens/rpg/button-golden-down.png");
 }
 
 .rpgui-button.golden:before {
@@ -92,7 +92,7 @@
   background-size: 100% 100%;
   margin: 0 0 0 0;
   left: 0px;
-  float: left;
+  float: none;
   margin-left: -46px;
   margin-top: -5%;
 }
